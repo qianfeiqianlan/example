@@ -14,14 +14,14 @@ namespace example_test
         {
             this.authenticationClient = new AuthenticationClient(init: opt =>
             {
-                opt.UserPoolId = "xxxxxxx";
-                opt.Secret = "xxxxxxx";
+                opt.UserPoolId = "61f60429f70052e2dbe26b10";
+                opt.Secret = "ea195be04885106b05e623b19965989d";
             });
 
             this.managementClient = new ManagementClient(init: opt =>
             {
-                opt.UserPoolId = "xxxxxxx";
-                opt.Secret = "xxxxxxxxxxxxx";
+                opt.UserPoolId = "61f60429f70052e2dbe26b10";
+                opt.Secret = "ea195be04885106b05e623b19965989d";
             });
         }
         
